@@ -975,7 +975,15 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
+<<<<<<< Updated upstream
 #define NOZZLE_TO_PROBE_OFFSET { -41, -10, -1.57 }
+=======
+<<<<<<< Updated upstream
+#define NOZZLE_TO_PROBE_OFFSET { -41, -10, 0 }
+=======
+#define NOZZLE_TO_PROBE_OFFSET { -41, -10, -1.29 }
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
